@@ -1,13 +1,13 @@
 _id: env_b0ca01ff033348f99745fb63ae854916
 type: Environment
 parentId: env_19464b95e2c43e0ae26b4ad1235d7037977b7792
-modified: 1675846769653
+modified: 1675890674629
 created: 1675826135139
 name: localhost
 data:
   article_endpoint: http://localhost:8000/api
   users_token: "{% response 'body', 'req_bad60f70176b4a76987265848eb7aabc',
-    'b64::JC5kYXRhLmFjY2Vzc190b2tlbg==::46b', 'never', 60 %}"
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
 dataPropertyOrder:
   "&":
     - article_endpoint

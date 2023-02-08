@@ -1,27 +1,23 @@
-_id: req_5ddeaec6620341a6a230bcb7d85e3dc4
+_id: req_d8f65438f91240bb813914a15cfb0800
 type: Request
 parentId: fld_0e0e45cbade24e2e9397d27ab9424b66
-modified: 1675891446095
-created: 1675827156178
-url: "{{ _.article_endpoint }}/users/register"
-name: Register
+modified: 1675890661575
+created: 1675890622194
+url: "{{ _.article_endpoint }}/users/logout"
+name: Logout
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"name": "sdfgs sdfgsdf",
-    	"email": "demo2@gmail.com",
-    	"password": "123456",
-    	"password_confirmation": "123456"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
-metaSortKey: -1675827156178
+authentication:
+  type: bearer
+  token: "{{ _.users_token }}"
+metaSortKey: -1674029982541.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

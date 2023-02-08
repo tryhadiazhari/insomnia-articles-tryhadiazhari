@@ -1,7 +1,7 @@
 _id: req_bad60f70176b4a76987265848eb7aabc
 type: Request
 parentId: fld_0e0e45cbade24e2e9397d27ab9424b66
-modified: 1675827298566
+modified: 1675890647027
 created: 1675827283316
 url: "{{ _.article_endpoint }}/users/login"
 name: Login
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"username": "demo",
+    	"email": "demo@gmail.com",
     	"password": "123456"
     }
 parameters: []
