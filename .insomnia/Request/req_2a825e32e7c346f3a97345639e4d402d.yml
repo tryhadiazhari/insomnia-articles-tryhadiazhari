@@ -1,0 +1,23 @@
+_id: req_2a825e32e7c346f3a97345639e4d402d
+type: Request
+parentId: fld_0f6c0816a68d453dae1c8129a177ddc4
+modified: 1675845153139
+created: 1675844928165
+url: "{{ _.article_endpoint }}/article/2"
+name: Show By ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.users_token }}"
+metaSortKey: -1675832263214
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

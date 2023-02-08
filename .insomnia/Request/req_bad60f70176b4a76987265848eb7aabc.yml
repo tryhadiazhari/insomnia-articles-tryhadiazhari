@@ -1,0 +1,29 @@
+_id: req_bad60f70176b4a76987265848eb7aabc
+type: Request
+parentId: fld_0e0e45cbade24e2e9397d27ab9424b66
+modified: 1675827298566
+created: 1675827283316
+url: "{{ _.article_endpoint }}/users/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "demo",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675826632848
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
