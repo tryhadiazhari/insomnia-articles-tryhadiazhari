@@ -1,10 +1,10 @@
 _id: req_92b4b265c2ce4239a3365b660f18d66c
 type: Request
 parentId: fld_0e0e45cbade24e2e9397d27ab9424b66
-modified: 1675890919176
+modified: 1675938224778
 created: 1675890701038
-url: "{{ _.article_endpoint }}/users"
-name: Show All
+url: "{{ _.article_endpoint }}/users/"
+name: Detail
 description: ""
 method: GET
 body:

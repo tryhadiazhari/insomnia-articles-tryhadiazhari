@@ -1,7 +1,7 @@
 _id: req_2536329f4ae94f34ac40d52f7292ef5a
 type: Request
 parentId: fld_0f6c0816a68d453dae1c8129a177ddc4
-modified: 1675845980282
+modified: 1675924798355
 created: 1675826109518
 url: "{{ _.article_endpoint }}/article/"
 name: Add
@@ -14,7 +14,7 @@ body:
     	"title": "Test Test Test Test Test Test Test Test Test",	
     	"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda consequuntur quasi quas tenetur voluptate minus nam atque quae voluptatum vitae dicta nesciunt enim, saepe hic adipisci ex ipsum facere iusto sint ab veritatis sunt. Nulla delectus consectetur maxime veritatis reprehenderit dolorum aliquam provident fugiat, ullam, quae asperiores ad officiis recusandae blanditiis ipsam quidem commodi dolor at totam autem odit repellendus? Ipsa hic consequatur animi debitis sunt, quis totam assumenda architecto dignissimos optio inventore molestiae minus iste voluptates reiciendis consectetur, quidem officia repellat eum ut. Expedita ea odio voluptatibus sunt in molestias autem, ipsa repellendus ut minus repellat, est eius officiis nesciunt assumenda veniam et beatae. Voluptate quas maxime repellat voluptas perspiciatis assumenda magnam at quasi, hic qui numquam ratione unde, inventore consectetur quia cum corrupti quidem ab vel illum odio deserunt facere. Atque nihil enim porro, deleniti quas, unde animi, perspiciatis ipsam ducimus voluptatum iusto non. Consectetur labore fuga eveniet quibusdam! Aliquam vero blanditiis esse hic at nostrum itaque, doloribus corporis quod alias porro cumque ipsa! Officiis voluptate aliquid harum adipisci quae fugiat, expedita quaerat nulla fugit consequuntur nostrum necessitatibus deleniti accusamus fuga, magnam tempora aliquam. Vitae, cupiditate consectetur enim incidunt aspernatur rerum culpa esse. Itaque odit eos repudiandae!",	
     	"category": "asdfasdf",	
-    	"status": "draft"
+    	"status": "publish"
     }
 parameters: []
 headers:
